@@ -19,7 +19,7 @@ Feature: MedicalAppCenter Test Scenarios
     Then I wait for element with xpath "//h1[contains(text(),'Olga Test1')]" to be present
     Then element with xpath "//h1[contains(text(),'Olga Test1')]" should contain text "Olga Test1"
 
-    
+
   @macenter2
   Scenario Outline: Login as a patient parametrised
     Given I open url "https://medicenter-qa2.vercel.app/"
