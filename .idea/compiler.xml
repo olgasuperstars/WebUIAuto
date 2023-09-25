@@ -7,7 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MyProjectNew" />
+        <module name="cucumberJava" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cucumberJava" target="8" />
+      <module name="MyProjectNew" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
