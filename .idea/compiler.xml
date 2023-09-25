@@ -6,13 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MyProjectNew" />
-        <module name="cucumberJava" />
+        <module name="java-webdriver-cucumber" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cucumberJava" target="8" />
-      <module name="MyProjectNew" target="8" />
+      <module name="java-webdriver-cucumber" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>
