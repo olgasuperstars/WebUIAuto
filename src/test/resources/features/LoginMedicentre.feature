@@ -40,4 +40,3 @@ Feature: MedicalAppCenter Test Scenarios
       | "wrongEmail@com.com" | "123456"        | "Olga Test1"    | "//h1[contains(text(),'Olga Test1')]"    |
       | "yna2106@mrshok.xyz" | "wrongPassword" | "Olga Test1"    | "//h1[contains(text(),'Olga Test1')]"    |
 
-  
